@@ -1,0 +1,12 @@
+{
+  "name": "detekti-website",
+  "version": "1.0.0",
+  "description": "Detekti Identity Governance Platform Website",
+  "scripts": {
+    "build": "echo 'No build process needed for static site' && exit 0",
+    "start": "echo 'Static site - no start command needed' && exit 0"
+  },
+  "keywords": ["identity", "governance", "security", "compliance"],
+  "author": "Detekti",
+  "license": "ISC"
+}
