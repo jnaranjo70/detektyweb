@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detekti | One Platform. All Access.</title>
+  <link rel="stylesheet" href="css/detekti.css">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <img src="assets/detekti_logo.png" alt="Detekti Logo" height="38" style="vertical-align: middle;">
+  </div>
+  <nav>
+    <a href="#home" class="active">Home</a>
+    <a href="#features">Features</a>
+    <a href="#how">How it Works</a>
+    <a href="#clients">Clients</a>
+    <a href="#resellers">Resellers</a>
+    <a href="#contact">Contact</a>
+    <button class="lang-switch" id="langBtn">EN</button>
+  </nav>
+</header>
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1 id="hero-title">One Platform. All Access.</h1>
+    <p id="hero-sub">Unify, control, and audit every identity in your business.</p>
+    <button class="cta-btn" id="demoBtn">Request Demo</button>
+  </div>
+  <div class="hero-img" id="hero-img">
+<section id="screenshots">
+  <h2 id="screenshots-title">Product Screenshots</h2>
+  <div class="screenshot-slider">
+    <img id="screenshot-img" src="assets/captures/1.png" alt="Screenshot" />
+    <div id="screenshot-tooltip" class="screenshot-tooltip"></div>
+  </div>
+</section>
+  
+  </div>
+</section>
+<h2 id="features-title" class="section-title">Features</h2>
+<section class="features" id="features">
+  <div class="feature-card">
+    <div class="icon">🔒</div>
+    <h3 id="f1-title">Full Identity Governance</h3>
+    <p id="f1-desc">Complete control over users, roles, permissions and access reviews.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon">⚡</div>
+    <h3 id="f2-title">Fast Deployment</h3>
+    <p id="f2-desc">Ready to run in weeks, not months. Start seeing value fast.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon">🔗</div>
+    <h3 id="f3-title">Flexible Integration</h3>
+    <p id="f3-desc">Connects natively to SAP, LDAP, Salesforce, file shares and more.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon">📊</div>
+    <h3 id="f4-title">Real Auditability</h3>
+    <p id="f4-desc">Powerful recertification, SoD conflict management and audit reports.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon">🛡️</div>
+    <h3 id="f5-title">Compliance Ready</h3>
+    <p id="f5-desc">Built for SOX, GLBA, HIPAA, ISO and more. Reduce audit findings.</p>
+  </div>
+</section>
+<section class="how-diagram" id="how">
+  <h2 id="how-title" class="section-title">How it Works</h2>
+  <div class="how-chain">
+    <div class="how-step-chain" data-tooltip-en="Deploy Detekti on-premises or in your preferred cloud. Seamlessly adapts to your infrastructure needs."
+         data-tooltip-es="Despliega Detekti on-premise o en tu nube preferida. Se adapta perfectamente a tu infraestructura."
+         data-tooltip-pt="Implemente o Detekti on-premise ou na nuvem de sua escolha. Se adapta perfeitamente à sua infraestrutura.">
+      <div class="how-icon">🏢☁️</div>
+      <div class="how-step-num">1</div>
+      <div class="how-step-title" id="how-step1-title">Flexible Deployment</div>
+    </div>
+    <div class="arrow">→</div>
+    <div class="how-step-chain" data-tooltip-en="Integrate with your core systems, business apps, and unstructured storage for full visibility."
+         data-tooltip-es="Conecta tus sistemas, aplicaciones y almacenamientos no estructurados para una visibilidad total."
+         data-tooltip-pt="Conecte seus sistemas, aplicativos e armazenamentos não estruturados para visibilidade total.">
+      <div class="how-icon">🔗</div>
+      <div class="how-step-num">2</div>
+      <div class="how-step-title" id="how-step2-title">Connect Everything</div>
+    </div>
+    <div class="arrow">→</div>
+    <div class="how-step-chain" data-tooltip-en="Easily configure your Segregation of Duties (SoD) matrices to match your business and compliance needs."
+         data-tooltip-es="Configura fácilmente tus matrices de Segregación de Funciones (SoD) para cumplir tu negocio y compliance."
+         data-tooltip-pt="Configure facilmente suas matrizes de Segregação de Funções (SoD) para atender sua empresa e compliance.">
+      <div class="how-icon">📑</div>
+      <div class="how-step-num">3</div>
+      <div class="how-step-title" id="how-step3-title">Define SoD Matrices</div>
+    </div>
+    <div class="arrow">→</div>
+    <div class="how-step-chain" data-tooltip-en="Identify and set up rules for conflicting transactions across applications and processes."
+         data-tooltip-es="Configura reglas para transacciones en conflicto entre aplicaciones y procesos."
+         data-tooltip-pt="Defina regras para transações conflitantes entre aplicativos e processos.">
+      <div class="how-icon">⚠️</div>
+      <div class="how-step-num">4</div>
+      <div class="how-step-title" id="how-step4-title">Configure Conflicts</div>
+    </div>
+    <div class="arrow">→</div>
+    <div class="how-step-chain" data-tooltip-en="Schedule periodic access reviews and automate user certification workflows to ensure compliance."
+         data-tooltip-es="Automatiza revisiones periódicas de acceso y flujos de certificación para asegurar el cumplimiento."
+         data-tooltip-pt="Automatize revisões periódicas de acesso e fluxos de certificação para garantir conformidade.">
+      <div class="how-icon">⏳</div>
+      <div class="how-step-num">5</div>
+      <div class="how-step-title" id="how-step5-title">Automate Reviews</div>
+    </div>
+    <div class="arrow">→</div>
+    <div class="how-step-chain" data-tooltip-en="Continuously monitor, detect, and manage identity-related risks—mitigate threats before they impact your business."
+         data-tooltip-es="Monitorea, detecta y mitiga riesgos relacionados con identidades antes de que afecten tu negocio."
+         data-tooltip-pt="Monitore, detecte e mitigue riscos de identidade antes que afetem seu negócio.">
+      <div class="how-icon">🛡️</div>
+      <div class="how-step-num">6</div>
+      <div class="how-step-title" id="how-step6-title">Mitigate Risks</div>
+    </div>
+  </div>
+  <div id="how-tooltip" class="how-tooltip"></div>
+</section>
+
+<section class="clients" id="clients">
+  <h2 id="clients-title" class="section-title">Who trusts Detekti?</h2>
+<div class="client-logos">
+  <div class="client-logo logo-multibank">
+    <img src="assets/customers/logo_multibank_blanco.svg" alt="Multibank" />
+  </div>
+  <div class="client-logo">
+    <img src="assets/customers/logo_nuevo_afphabitat_full.svg" alt="AFP Habitat" />
+  </div>
+  <div class="client-logo">
+    <img src="assets/customers/logo-claro-rojo.svg" alt="Claro" />
+  </div>
+  <div class="client-logo">
+    <img src="assets/customers/logo-Colfondos-Habitat.png" alt="Colfondos" />
+  </div>
+  <div class="client-logo">
+    <img src="assets/customers/logo-colpatria.png" alt="Colpatria" />
+  </div>
+</div>
+  <div class="testimonial">
+    <p id="testi1">“Detekti gave us true control over access and compliance.”</p>
+    <p class="testi-name" id="testi1-name">— Client IT Manager</p>
+  </div>
+</section>
+<section class="resellers" id="resellers">
+  <h2 id="reseller-title" class="section-title">Become a Detekti Partner</h2>
+  <ul id="reseller-benefits">
+    <li>Partner-focused onboarding and support</li>
+    <li>Easy integration with existing IAM stack</li>
+    <li>Fast go-to-market for your clients</li>
+    <li>Attractive program for growth-focused partners</li>
+    <li>No channel conflict</li>
+  </ul>
+  <button class="cta-btn" id="partnerBtn">Contact for Partner Program</button>
+</section>
+<footer id="contact">
+  <div class="footer-logo">
+    <img src="assets/detekti_logo.png" alt="Detekti Logo" height="32" style="vertical-align: middle;">
+  </div>
+  <div class="contact-block">
+    <span>📧 contact@detekti.com</span>
+    <span>🌐 www.detekti.com</span>
+  </div>
+  <div class="footer-copy">© 2025 Detekti LLC – All rights reserved.</div>
+</footer>
+
+<!-- Modal Request Demo -->
+<div id="demoModal" class="modal-bg" style="display:none;">
+  <div class="modal-form">
+    <h3 id="modal-title">Request a Demo</h3>
+    <form id="demoForm" method="post" action="demos/request_demo.asp" target="hidden_iframe" autocomplete="off">
+      <label id="modal-name-label">Name:</label>
+      <input type="text" name="name" required>
+      <label id="modal-company-label">Company:</label>
+      <input type="text" name="company" required>
+      <label id="modal-email-label">Email:</label>
+      <input type="email" name="email" required>
+      <label id="modal-comments-label">Comments:</label>
+      <textarea name="comments" rows="3"></textarea>
+
+      <div class="privacy-block">
+        <div class="privacy-notice" id="modal-privacy-notice"></div>
+        <label class="checkbox-group">
+          <input type="checkbox" id="privacyCheck1" required>
+          <span id="privacy-check-1"></span>
+        </label>
+        <label class="checkbox-group">
+          <input type="checkbox" id="privacyCheck2" required>
+          <span id="privacy-check-2"></span>
+        </label>
+        <div id="privacy-warning" class="privacy-warning" style="display:none;">
+          <span id="privacy-warning-msg"></span>
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <button type="submit" class="cta-btn" id="modal-send-btn" disabled>Send</button>
+        <button type="button" class="cta-btn" onclick="closeDemoModal()" id="modal-cancel-btn">Cancel</button>
+      </div>
+    </form>
+    <div id="demoSuccess" class="success-msg" style="display:none;">
+      <strong id="modal-thank-title">Thank you!</strong>
+      <span id="modal-thank-msg">We received your request.</span>
+    </div>
+    <iframe name="hidden_iframe" style="display:none"></iframe>
+  </div>
+</div>
+
+<!-- Modal Partner Program -->
+<div id="partnerModal" class="modal-bg" style="display:none;">
+  <div class="modal-form">
+    <h3 id="partner-modal-title">Partner Information</h3>
+    <form id="partnerForm" method="post" action="demos/request_partner.asp" target="hidden_iframe" autocomplete="off">
+      <label id="partner-modal-name-label">Name:</label>
+      <input type="text" name="name" required>
+      <label id="partner-modal-company-label">Company:</label>
+      <input type="text" name="company" required>
+      <label id="partner-modal-email-label">Email:</label>
+      <input type="email" name="email" required>
+      <label id="partner-modal-comments-label">Comments:</label>
+      <textarea name="comments" rows="3"></textarea>
+
+      <div class="privacy-block">
+        <div class="privacy-notice" id="partner-modal-privacy-notice"></div>
+        <label class="checkbox-group">
+          <input type="checkbox" id="partnerPrivacyCheck1" required>
+          <span id="partner-privacy-check-1"></span>
+        </label>
+        <label class="checkbox-group">
+          <input type="checkbox" id="partnerPrivacyCheck2" required>
+          <span id="partner-privacy-check-2"></span>
+        </label>
+        <div id="partner-privacy-warning" class="privacy-warning" style="display:none;">
+          <span id="partner-privacy-warning-msg"></span>
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <button type="submit" class="cta-btn" id="partner-modal-send-btn" disabled>Send</button>
+        <button type="button" class="cta-btn" onclick="closePartnerModal()" id="partner-modal-cancel-btn">Cancel</button>
+      </div>
+    </form>
+    <div id="partnerSuccess" class="success-msg" style="display:none;">
+      <strong id="partner-modal-thank-title">Thank you!</strong>
+      <span id="partner-modal-thank-msg">We received your information.</span>
+    </div>
+    <iframe name="hidden_iframe" style="display:none"></iframe>
+  </div>
+</div>
+
+
+<script>
+function openDemoModal() {
+  document.getElementById('demoModal').style.display = 'flex';
+  if(document.getElementById('demoForm')) document.getElementById('demoForm').style.display = 'block';
+  if(document.getElementById('demoSuccess')) document.getElementById('demoSuccess').style.display = 'none';
+  if(document.getElementById('privacyCheck1')) document.getElementById('privacyCheck1').checked = false;
+  if(document.getElementById('privacyCheck2')) document.getElementById('privacyCheck2').checked = false;
+  privacyUpdateBtn();
+}
+function closeDemoModal() {
+  document.getElementById('demoModal').style.display = 'none';
+}
+document.getElementById('demoBtn').onclick = openDemoModal;
+
+function privacyUpdateBtn() {
+  const btn = document.getElementById('modal-send-btn');
+  if (!btn) return;
+  const c1 = document.getElementById('privacyCheck1').checked;
+  const c2 = document.getElementById('privacyCheck2').checked;
+  btn.disabled = !(c1 && c2);
+  document.getElementById('privacy-warning').style.display = (c1 && c2) ? "none" : "";
+}
+if(document.getElementById('privacyCheck1'))
+  document.getElementById('privacyCheck1').onchange = privacyUpdateBtn;
+if(document.getElementById('privacyCheck2'))
+  document.getElementById('privacyCheck2').onchange = privacyUpdateBtn;
+privacyUpdateBtn();
+
+if(document.getElementById('demoForm')) {
+  document.getElementById('demoForm').onsubmit = function(e) {
+    const c1 = document.getElementById('privacyCheck1').checked;
+    const c2 = document.getElementById('privacyCheck2').checked;
+    if (!(c1 && c2)) {
+      document.getElementById('privacy-warning').style.display = "";
+      privacyUpdateBtn();
+      return false;
+    }
+    setTimeout(function() {
+      if(document.getElementById('demoForm')) document.getElementById('demoForm').style.display = 'none';
+      if(document.getElementById('demoSuccess')) document.getElementById('demoSuccess').style.display = 'block';
+    }, 350);
+    return true;
+  };
+}
+
+// --- PARTNER MODAL JS ---
+function openPartnerModal() {
+  document.getElementById('partnerModal').style.display = 'flex';
+  if(document.getElementById('partnerForm')) document.getElementById('partnerForm').style.display = 'block';
+  if(document.getElementById('partnerSuccess')) document.getElementById('partnerSuccess').style.display = 'none';
+  if(document.getElementById('partnerPrivacyCheck1')) document.getElementById('partnerPrivacyCheck1').checked = false;
+  if(document.getElementById('partnerPrivacyCheck2')) document.getElementById('partnerPrivacyCheck2').checked = false;
+  partnerPrivacyUpdateBtn();
+}
+function closePartnerModal() {
+  document.getElementById('partnerModal').style.display = 'none';
+}
+if(document.getElementById('partnerBtn'))
+  document.getElementById('partnerBtn').onclick = openPartnerModal;
+
+function partnerPrivacyUpdateBtn() {
+  const btn = document.getElementById('partner-modal-send-btn');
+  if (!btn) return;
+  const c1 = document.getElementById('partnerPrivacyCheck1').checked;
+  const c2 = document.getElementById('partnerPrivacyCheck2').checked;
+  btn.disabled = !(c1 && c2);
+  document.getElementById('partner-privacy-warning').style.display = (c1 && c2) ? "none" : "";
+}
+if(document.getElementById('partnerPrivacyCheck1'))
+  document.getElementById('partnerPrivacyCheck1').onchange = partnerPrivacyUpdateBtn;
+if(document.getElementById('partnerPrivacyCheck2'))
+  document.getElementById('partnerPrivacyCheck2').onchange = partnerPrivacyUpdateBtn;
+partnerPrivacyUpdateBtn();
+
+if(document.getElementById('partnerForm')) {
+  document.getElementById('partnerForm').onsubmit = function(e) {
+    const c1 = document.getElementById('partnerPrivacyCheck1').checked;
+    const c2 = document.getElementById('partnerPrivacyCheck2').checked;
+    if (!(c1 && c2)) {
+      document.getElementById('partner-privacy-warning').style.display = "";
+      partnerPrivacyUpdateBtn();
+      return false;
+    }
+    setTimeout(function() {
+      if(document.getElementById('partnerForm')) document.getElementById('partnerForm').style.display = 'none';
+      if(document.getElementById('partnerSuccess')) document.getElementById('partnerSuccess').style.display = 'block';
+    }, 350);
+    return true;
+  };
+}
+
+// Tooltips para pasos encadenados en "How it Works"
+const howSteps = document.querySelectorAll('.how-step-chain');
+const tooltip = document.getElementById('how-tooltip');
+let howLang = 0; // 0:EN, 1:ES, 2:PT
+
+function getLangIndex() {
+  const code = document.getElementById('langBtn').textContent.trim();
+  if (code === 'ES') return 1;
+  if (code === 'PT') return 2;
+  return 0;
+}
+
+function showHowTooltip(evt, msg) {
+  tooltip.style.display = "block";
+  tooltip.innerText = msg;
+  const rect = evt.target.getBoundingClientRect();
+  tooltip.style.top = (window.scrollY + rect.top + rect.height + 8) + "px";
+  tooltip.style.left = (window.scrollX + rect.left + rect.width/2 - 110) + "px";
+}
+
+function hideHowTooltip() {
+  tooltip.style.display = "none";
+}
+
+howSteps.forEach(step => {
+  step.addEventListener('mouseenter', function(e) {
+    howLang = getLangIndex();
+    let msg = step.getAttribute('data-tooltip-en');
+    if (howLang === 1) msg = step.getAttribute('data-tooltip-es');
+    if (howLang === 2) msg = step.getAttribute('data-tooltip-pt');
+    showHowTooltip(e, msg);
+  });
+  step.addEventListener('mousemove', function(e) {
+    // Sigue el mouse si se quiere
+    tooltip.style.top = (e.pageY + 16) + "px";
+    tooltip.style.left = (e.pageX - 110) + "px";
+  });
+  step.addEventListener('mouseleave', hideHowTooltip);
+});
+
+// Para ocultar tooltip al cambiar idioma
+document.getElementById('langBtn').addEventListener('click', hideHowTooltip);
+
+
+
+</script>
+<script src="js/detekti_lang.js"></script>
+</body>
+</html>
