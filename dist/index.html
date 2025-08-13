@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detekti | One Platform. All Access.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" crossorigin href="/assets/index-BoLSsoS7.css">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <img src="data:image/png;base64,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" alt="Detekti Logo" height="38" style="vertical-align: middle;">
+  </div>
+  <nav>
+    <a href="#home" class="active">Home</a>
+    <a href="#features">Features</a>
+    <a href="#how">How it Works</a>
+    <a href="#clients">Clients</a>
+    <a href="#resellers">Resellers</a>
+    <a href="#contact">Contact</a>
+    <button class="lang-switch" id="langBtn">EN</button>
+  </nav>
+</header>
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1 id="hero-title" class="display-small">One Platform. All Access.</h1>
+    <p id="hero-sub" class="body-large">Unify, control, and audit every identity in your business.</p>
+    <button class="cta-btn" id="demoBtn">
+      <span class="material-icons" style="margin-right: 8px; font-size: 18px;">play_arrow</span>
+      Request Demo
+    </button>
+  </div>
+  <div class="hero-img" id="hero-img">
+<section id="screenshots">
+  <h2 id="screenshots-title" class="title-large">Product Screenshots</h2>
+  <div class="screenshot-slider">
+    <img id="screenshot-img" src="/assets/1-bZ8GUAUV.png" alt="Screenshot" />
+    <div id="screenshot-tooltip" class="screenshot-tooltip"></div>
+  </div>
+</section>
+  
+  </div>
+</section>
+<h2 id="features-title" class="section-title headline-medium">Features</h2>
+<section class="features" id="features">
+  <div class="feature-card">
+    <div class="icon">
+      <span class="material-icons">security</span>
+    </div>
+    <h3 id="f1-title">Full Identity Governance</h3>
+    <p id="f1-desc">Complete control over users, roles, permissions and access reviews.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon">
+      <span class="material-icons">flash_on</span>
+    </div>
+    <h3 id="f2-title">Fast Deployment</h3>
+    <p id="f2-desc">Ready to run in weeks, not months. Start seeing value fast.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon">
+      <span class="material-icons">link</span>
+    </div>
+    <h3 id="f3-title">Flexible Integration</h3>
+    <p id="f3-desc">Connects natively to SAP, LDAP, Salesforce, file shares and more.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon">
+      <span class="material-icons">analytics</span>
+    </div>
+    <h3 id="f4-title">Real Auditability</h3>
+    <p id="f4-desc">Powerful recertification, SoD conflict management and audit reports.</p>
+  </div>
+  <div class="feature-card">
+    <div class="icon">
+      <span class="material-icons">verified_user</span>
+    </div>
+    <h3 id="f5-title">Compliance Ready</h3>
+    <p id="f5-desc">Built for SOX, GLBA, HIPAA, ISO and more. Reduce audit findings.</p>
+  </div>
+</section>
+<section class="how-diagram" id="how">
+  <h2 id="how-title" class="section-title headline-medium">How it Works</h2>
+  <div class="how-chain">
+    <div class="how-step-chain" data-tooltip-en="Deploy Detekti on-premises or in your preferred cloud. Seamlessly adapts to your infrastructure needs."
+         data-tooltip-es="Despliega Detekti on-premise o en tu nube preferida. Se adapta perfectamente a tu infraestructura."
+         data-tooltip-pt="Implemente o Detekti on-premise ou na nuvem de sua escolha. Se adapta perfeitamente à sua infraestrutura.">
+      <div class="how-icon">
+        <span class="material-icons">cloud_upload</span>
+      </div>
+      <div class="how-step-num">1</div>
+      <div class="how-step-title" id="how-step1-title">Flexible Deployment</div>
+    </div>
+    <div class="arrow">
+      <span class="material-icons">arrow_forward</span>
+    </div>
+    <div class="how-step-chain" data-tooltip-en="Integrate with your core systems, business apps, and unstructured storage for full visibility."
+         data-tooltip-es="Conecta tus sistemas, aplicaciones y almacenamientos no estructurados para una visibilidad total."
+         data-tooltip-pt="Conecte seus sistemas, aplicativos e armazenamentos não estruturados para visibilidade total.">
+      <div class="how-icon">
+        <span class="material-icons">hub</span>
+      </div>
+      <div class="how-step-num">2</div>
+      <div class="how-step-title" id="how-step2-title">Connect Everything</div>
+    </div>
+    <div class="arrow">
+      <span class="material-icons">arrow_forward</span>
+    </div>
+    <div class="how-step-chain" data-tooltip-en="Easily configure your Segregation of Duties (SoD) matrices to match your business and compliance needs."
+         data-tooltip-es="Configura fácilmente tus matrices de Segregación de Funciones (SoD) para cumplir tu negocio y compliance."
+         data-tooltip-pt="Configure facilmente suas matrizes de Segregação de Funções (SoD) para atender sua empresa e compliance.">
+      <div class="how-icon">
+        <span class="material-icons">grid_view</span>
+      </div>
+      <div class="how-step-num">3</div>
+      <div class="how-step-title" id="how-step3-title">Define SoD Matrices</div>
+    </div>
+    <div class="arrow">
+      <span class="material-icons">arrow_forward</span>
+    </div>
+    <div class="how-step-chain" data-tooltip-en="Identify and set up rules for conflicting transactions across applications and processes."
+         data-tooltip-es="Configura reglas para transacciones en conflicto entre aplicaciones y procesos."
+         data-tooltip-pt="Defina regras para transações conflitantes entre aplicativos e processos.">
+      <div class="how-icon">
+        <span class="material-icons">warning</span>
+      </div>
+      <div class="how-step-num">4</div>
+      <div class="how-step-title" id="how-step4-title">Configure Conflicts</div>
+    </div>
+    <div class="arrow">
+      <span class="material-icons">arrow_forward</span>
+    </div>
+    <div class="how-step-chain" data-tooltip-en="Schedule periodic access reviews and automate user certification workflows to ensure compliance."
+         data-tooltip-es="Automatiza revisiones periódicas de acceso y flujos de certificación para asegurar el cumplimiento."
+         data-tooltip-pt="Automatize revisões periódicas de acesso e fluxos de certificação para garantir conformidade.">
+      <div class="how-icon">
+        <span class="material-icons">schedule</span>
+      </div>
+      <div class="how-step-num">5</div>
+      <div class="how-step-title" id="how-step5-title">Automate Reviews</div>
+    </div>
+    <div class="arrow">
+      <span class="material-icons">arrow_forward</span>
+    </div>
+    <div class="how-step-chain" data-tooltip-en="Continuously monitor, detect, and manage identity-related risks—mitigate threats before they impact your business."
+         data-tooltip-es="Monitorea, detecta y mitiga riesgos relacionados con identidades antes de que afecten tu negocio."
+         data-tooltip-pt="Monitore, detecte e mitigue riscos de identidade antes que afetem seu negócio.">
+      <div class="how-icon">
+        <span class="material-icons">shield</span>
+      </div>
+      <div class="how-step-num">6</div>
+      <div class="how-step-title" id="how-step6-title">Mitigate Risks</div>
+    </div>
+  </div>
+  <div id="how-tooltip" class="how-tooltip"></div>
+</section>
+
+<section class="clients" id="clients">
+  <h2 id="clients-title" class="section-title headline-medium">Who trusts Detekti?</h2>
+<div class="client-logos">
+  <div class="client-logo logo-multibank">
+    <img src="/assets/logo_multibank_blanco-DiFIwE98.svg" alt="Multibank" />
+  </div>
+  <div class="client-logo">
+    <img src="/assets/logo_nuevo_afphabitat_full-1f7NST8p.svg" alt="AFP Habitat" />
+  </div>
+  <div class="client-logo">
+    <img src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='utf-8'?%3e%3c!--%20Generator:%20Adobe%20Illustrator%2020.0.0,%20SVG%20Export%20Plug-In%20.%20SVG%20Version:%206.00%20Build%200)%20--%3e%3csvg%20version='1.1'%20id='Capa_1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20x='0px'%20y='0px'%20viewBox='0%200%20193.5%2069.9'%20style='enable-background:new%200%200%20193.5%2069.9;'%20xml:space='preserve'%3e%3cstyle%20type='text/css'%3e%20.st0{fill:%23DA291C;}%20%3c/style%3e%3cg%3e%3cpath%20class='st0'%20d='M144.4,31.2c-5.2,0-9.7,1.9-13.4,5.7c-3.8,3.8-5.6,8.4-5.6,13.7s1.8,9.9,5.6,13.6c3.7,3.8,8.2,5.7,13.4,5.7%20s9.8-1.9,13.6-5.7c3.7-3.7,5.6-8.3,5.6-13.6s-1.9-9.9-5.6-13.7C154.2,33.1,149.7,31.2,144.4,31.2z%20M151.6,57.7c-1.9,2-4.3,3-7.1,3%20c-2.7,0-5.1-1-7.1-3c-1.9-2-3-4.4-3-7.2c0-2.9,1.1-5.3,3-7.2c1.9-2,4.3-3,7.1-2.9c2.8-0.1,5.2,0.9,7.2,2.9c1.9,1.9,2.8,4.3,2.9,7.2%20C154.5,53.3,153.5,55.7,151.6,57.7z'/%3e%3cpath%20class='st0'%20d='M23.6,30.8c2.8,0,5.4,0.8,7.9,2.4c2.2,1.5,4,3.6,5.2,6.1h9.6c-1.4-5.1-4.1-9.4-8.3-12.6c-4.2-3.4-9.1-5-14.4-5%20c-6.6,0-12,2.3-16.6,7C2.3,33.4,0,39,0,45.6c0,6.5,2.3,12.3,7,17c4.6,4.6,10.1,6.9,16.7,6.9c5.3,0,10.2-1.6,14.4-4.9%20c4.1-3.4,6.9-7.5,8.3-12.6h-9.6c-1.2,2.5-3,4.5-5.2,6.1c-2.5,1.5-5,2.3-7.9,2.3c-4.1,0-7.5-1.5-10.3-4.3c-2.9-2.9-4.3-6.3-4.2-10.4%20c-0.1-4.1,1.3-7.5,4.2-10.4C16.1,32.3,19.6,30.8,23.6,30.8z'/%3e%3cpath%20class='st0'%20d='M92.6,33.5c-3.2-1.7-6.7-2.5-10.7-2.4c-6.2-0.1-10.5,1.6-13,4.9c-1.6,2-2.4,4.7-2.6,8h9.2%20c0.2-1.6,0.7-2.7,1.3-3.4c1-1.2,2.6-1.9,4.9-1.8c1.9-0.1,3.4,0.3,4.5,0.9c1.1,0.5,1.5,1.6,1.6,3.1c0,1.2-0.7,2.2-2.1,2.8l-7.1,1.1%20c-3.3,0.4-5.9,1.2-7.9,2.4c-3.4,2-5.1,5.3-5,10c-0.1,3.3,1,5.9,3.1,7.9c1.9,1.6,4.4,2.5,7.5,2.6c5-0.1,9-1.3,11.8-3.8v3.8h9.2v-27%20C97.2,38.2,95.6,35.1,92.6,33.5z%20M87.5,54.6c0,3.2-0.9,5.4-2.6,6.6c-1.8,1.2-3.6,1.9-5.7,1.9c-1.3,0-2.4-0.4-3.3-1.1%20c-0.9-0.8-1.3-1.9-1.3-3.6c0-1.9,0.7-3.2,2.2-4.2c0.9-0.5,2.4-1,4.3-1.2l4.6-1.2l1.8-1V54.6z'/%3e%3crect%20x='51'%20y='21.7'%20class='st0'%20width='9.2'%20height='47.9'/%3e%3cpath%20class='st0'%20d='M122.1,31.5l-3.5,1c-2.5,1-4.7,2.7-6.5,5.2V33l-8.7-0.1v36.8h9.1V52.1c0-3,0.4-5.1,1.2-6.5%20c0.6-1.4,1.8-2.6,3.2-3.5c1.6-1.1,3.3-1.6,5-1.6l2.8,0.2l-0.1-9.4L122.1,31.5z'/%3e%3cpolygon%20class='st0'%20points='181.5,4.6%20159.4,26.8%20165.2,32.6%20187.3,10.4%20'/%3e%3crect%20x='141.4'%20class='st0'%20width='8.2'%20height='23.8'/%3e%3crect%20x='169.2'%20y='41.8'%20class='st0'%20width='24.3'%20height='8.2'/%3e%3c/g%3e%3c/svg%3e" alt="Claro" />
+  </div>
+  <div class="client-logo">
+    <img src="/assets/logo-Colfondos-Habitat-Bcuqo5_k.png" alt="Colfondos" />
+  </div>
+  <div class="client-logo">
+    <img src="data:image/png;base64,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" alt="Colpatria" />
+  </div>
+</div>
+  <div class="testimonial">
+    <p id="testi1">"Detekti gave us true control over access and compliance."</p>
+    <p class="testi-name" id="testi1-name">— Client IT Manager</p>
+  </div>
+</section>
+<section class="resellers" id="resellers">
+  <h2 id="reseller-title" class="section-title headline-medium">Become a Detekti Partner</h2>
+  <ul id="reseller-benefits">
+    <li>Partner-focused onboarding and support</li>
+    <li>Easy integration with existing IAM stack</li>
+    <li>Fast go-to-market for your clients</li>
+    <li>Attractive program for growth-focused partners</li>
+    <li>No channel conflict</li>
+  </ul>
+  <button class="cta-btn" id="partnerBtn">
+    <span class="material-icons" style="margin-right: 8px; font-size: 18px;">handshake</span>
+    Contact for Partner Program
+  </button>
+</section>
+<footer id="contact">
+  <div class="footer-logo">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOYAAAA8CAYAAAByz8byAAAMKElEQVR42u1dC5AcVRXtDQQT85mdmWiMISS7Mz3Kp/ADIkLUgIJWSmMhrqWCVkSMP4hAxQhqOUiyM92TdXemO9GKCJJoQZnyV35SpqDcQMhms9OfuFZI+CTZnd8GJBAiBPIBvLdnm8xO+s307PTrnZ68W9UF2Xn93r3v3vPuffd9muMYMWLEiBEjRowYMWLkGEV7pwdS2kMBWXsuKOnHgynt2WBS2wB/n+J10Xw96tXBlKoGJfV/QVk7GpT13X5p4IZmV6mve6Ad9PgIyPtiUNKOgezDAUlZ1Yz6aE31fw7q2zFa5wmQt4D2Oz322Ds8rcSAnL591tpdb5Y/gaT2Da8bKCjrP+Vy4eDDdWw6p5mBGZD031jpdKakXt5M+pjePXAhvm9pvyn9H55Wol/WJGvBtHs8D8yUesRKNvQozQxMAMC/rOT2J5WvNJM+AHzft6qvCHjtGLcoeraXjXetpRJldbXnDVRWX7b0HN194eYGpr7VGpjqjc2kDwZMBkwGzAbUR8VQVtY2ez3cY8BkwPSsPlqlgc9DvTuDKf0V8JIn4f8PQij/u2md/bMZMBkwGTCZPhgwmSEwYE4QRSfNTA58yC9rd4KLfgDi5cfhv0OBlPbfUZf9BmnS69RjH5jO8YpljfUtSXse195g0OgPSMqDmCH2Scq1FddW49v8EMIo8N7rTvUBro35U8pdnpDfZWC2dqU/ALzdB2DLBmT1Nex3Y700pdzspj6s1mwddyrT12x/Z7BHi6NSaQOvXmBOBK9gqK8GJWXj9J4d55+eoRv4IpU2ZT3vBfndAuaMLuW9AVnfRBpwzHVJt/SBg6H1cl/fFY6AEteYSK6+0YA50bziKIweagxPUvpblNo66gX5aQNzStf2+eAZ78cES+XBQ3sCire4pQ+qa7aV1mMaDZiNxGvpJojWpLaEThvqPi/ITwuYmN3ETSgYJlYOM/XjwaS+jhMe9rmpD2rRga9H+SBpLaZ8lITRKIcj0uh+Q8WJB/fI2gVmDbyewLlHzbzKqob7J+GdjK12YPT2de+8tDjV650CsvwaQpuBU/VZz29wa5g9nvStgaTS4Qn5nTZWnCOmlFi1yMBYokhqG3xrdraNnXrT1wdVYILgvyUrWD0IE+yf+lLqJbR2MdSSla3MK0y6U+mV0CEXcx0dZznAWgvOZyAkugWUspc4goLy3coCekX+uox1xZZp8P6PMJlSLVEFHvsP1ea7tLOytIDZQmIWhH4UR60GWi4h8hqUlL+iQqkxuWz9ZDCUP9eSnKFgCJ6Rf1zGeuvmt4Ecy/F0UdVwUtY2Y/TQCMslVICJmT2S8FN/PjCvkdYxSbxieMLFHgnS5tOXUELE9gnRhJOG4CX5azJW8O4BKX0TevzqobO+1d+TvrKR1jHpALOr/wJCCHuo0TYYEHmVtOddYRSMj2QwJGA4CkwPyW/TWFtwSaNSmFxijzt9yf5rGnGDAR1gptIXTaiyawHmRPNawTBndPXOog5MD8lfzVj9qf7FgZSuVw9Z1UE8iNzIO38YMBkwPQ9M8I4y7kyysYj/lF9Kfxm9qqO2xoDpIjCN6xycWbqp9jQkMBtQfpKx2ljmGTZurqC1AsCA6R4wG+GZSGA2ovy1ArN4VEpZTvvKFQbMMwyYpGWlMwWY5fLXAkzooz1unV1kwDyDgInKJs2FzgRgWslfs8fE0yyp9I+56OaZDJgMmHVv5MYtiv6U+j03DMFL8o97jimpLwRkPcpFe1sZMFlW1hMjtJfkJ2ZlZXUnnp20sZHgsHEPbbQvwIDJgMmASRmYaKy4oyyQ1H+F2WQb5z+P4JlTUnKteYHZCDt/kvo6O0eKyDtf9MNnBDA9JL8dYzVO/kvKxmrnK815bEBOr6k3SdQUe2WnCNvOc8djan2WgpXNXSrxikbb9MD0kPy1GKtxI4Gk/t7OFSh4SDkg6T1v73lsTlMDk6t0ukTSt1PeHN0C84ifEQ9Kp/oX2+ZVVgeniv3nNjMwvST/eIwVj6vBe3+xf8WJKk/t7pvbrMCseMYPDzEHUurdxnnMZesnO6G01p4dC4zTBBV2kmB2Do8B1cIrhnQQGgnG9zEa5Nsgrp7HbCD56zFWPHgNA80/bd0mULyE65d2oztPAdP2qfjiZbbZ0RPuam23FKiD8DyDoYi9DtejdfFq3rZQiVdZe9ifVBZ6CZhekd8JY8XjXaT7dKyuFcGE0mm3GHgZmEjgFW9rmPUxUEalE/hO8gptbfESML0iv5PGCtHaJ0h5CMKVKiLnwoYPV4BpjFDSwA14D+mEXu4kKfdahbC0eEVPTnkpiMrXvhpdfuLNcXV8ixJzDpWmP2WfcLzeLX248mUzTEfjiINrY+55SO0YdNif8NJit3k1rk+h6jH13Vajup3Bx8vyk+5adSJ0bk0p1+GAUtmmBpa6pQ/q98qOpeikmd3py4zbvZPaBszQGjdzy+ohzIjVDj79eDE5oRVg/rgLRpk/YqICrxjEL0pPBK942RPtrzvjqXs8EGzciI6ZRFndQzKaZpIfQ0P0JMDHS8WvhOOte4rAOXe+sgVvqwtI6t+NLzjD4D6aCBrGbC0JaDT04YKsjBgxYsSIESNGjBgxYsSIESNGjBgxYsSIESNGjBgxYsSIESNGjBgxYsSIESNGjBg1D40k+K0Zkf+BU/Xt+6Hfl09EDmdWt11Gi+eCyC/Li5FdTHveJ9Dj3YVE5LnepdyUETGyLi/yBwti5I2cEL7D/G1TB3eWW/y4Yb/2jDwR2ZuLh7ucqu/p6NxzD655z5uZWOjTtHjOJfifoAKZWXufBu88z//0PeELs4nwzWCLr+Ogm4m1fXTPXXOD5m9u8uOG/VY3cDGiIRPmY4xUYvjyfIKX8kIkB/8+af6GowiU3zYkhK5QlnGTrcqUPigYqVxpXU9G58yCMn+DMi8ZPCQiT9gFJq36LagFIotX4N0T8GTBeHp6F3Fn2+mHnBD6Wr3lsG3wHoN5IfQlZMaOTNT6Hj2ZEOm3+g29XkGIHBrqDF2FXi4r8GsKCX4Y++1U+/wR0N2OXDx0dWn0k0tE4mP7I3yH+Zvd/nNSbzTttyoNrZp/PnYcCP/QsNC+MB8LXZkT+BXwt2PZOH9rNhb+OP69+IQ/i8wAE/msyC+3LtO+sBAPXWcKRi53qi5QkgBCP5sXw0vwNzsjpAlMWvWXGzgaHCohEw9fmxHD34X6juZE/tuV+sF8MDSqqZwYeQ30ccuYciJ/TT7OP4gGdiDa2mpHJlp9g++MCJEhq9+QN9T9sBj+Qj4evgmNGQGWjYcXme0PxdoXQ99tAUN+Mcpxk0xdYr3A04hZDj1mdT2P7T8n9OaG/Y4rlIUGZNL8rSCEbzRGDJG/n1SmNBSwVVeCvw/K7MtE570bOxIf7FQ7wKRV/79XzJ4GI/gGUMoLVqNpMbrgeyq1P9aYayo3aPJZ+uwX2j5W9Axt7zNG8Soy0eobu8BED0gqNxzjP4Pl9ne2zS4FZnl5O3p2Wm9u2O/4gJmIrK3GzIjIP2BLMBt17Y8t+DCGGad1IIREoJhfYOhBBCal+kfEcBRDrqwY/iomATKr2y8tfaDdZyCySFZqf4wx11COZFDmMxw77wIclavJRKtvbHvMCuVMYB6ILniXLWDa7D8n9OaG/U6ox4Syn7JTF45yyHx2VTs/HA9dUuxE6NQ4v7TYVnhJPR5zXPWLkY0QnhDvwgED2k3NYyb4p8oNynwOdC54Pzd6XUU1mej1PdkTmsCE0O96R4Fps/+c0Jsb9jsuYJpx9WnzHOjM8jlmeZl8vP2T+XjkXkwiZVbNC9mpa6hz/pzy+QJm5XDij4LhnKTaHJNO/ZGXs0LomxhCmu9hG9gm/HYc5k7fIbZf8qCx1lrOnNPg/MhqxLUjE62+MeeOYJi3ldaLyRz0RqMh6sVOAtNu/9WrN7fs1+aaYOTRvMCvNP+9qYM7x5jDQKNjM1H8EXDtj6OxkMoAyF/FrFRG4L9uty4IixPlYQB2ICopJ4ZjmCAgrWPSqr/vdm5qIc6vzwuRAqbwS7LWJzFDhwaI8whS+2PaAkMebznDQDpDF50eslWXiVbfYLYVB3Ijy1mSbTWSVgL/JBr+W9lbkd9hmXSMhT+Cmc29K2fNeCsra1G+mp7L+69evbllv4wYMfII/R/amErI4QZZ9gAAAABJRU5ErkJggg==" alt="Detekti Logo" height="32" style="vertical-align: middle;">
+  </div>
+  <div class="contact-block">
+    <span>
+      <span class="material-icons" style="margin-right: 4px; font-size: 16px; vertical-align: middle;">email</span>
+      contact@detekti.com
+    </span>
+    <span>
+      <span class="material-icons" style="margin-right: 4px; font-size: 16px; vertical-align: middle;">language</span>
+      www.detekti.com
+    </span>
+  </div>
+  <div class="footer-copy">© 2025 Detekti LLC – All rights reserved.</div>
+</footer>
+
+<!-- Modal Request Demo -->
+<div id="demoModal" class="modal-bg" style="display:none;">
+  <div class="modal-form">
+    <h3 id="modal-title">Request a Demo</h3>
+    <form id="demoForm" method="post" action="demos/request_demo.asp" target="hidden_iframe" autocomplete="off">
+      <label id="modal-name-label">Name:</label>
+      <input type="text" name="name" required>
+      <label id="modal-company-label">Company:</label>
+      <input type="text" name="company" required>
+      <label id="modal-email-label">Email:</label>
+      <input type="email" name="email" required>
+      <label id="modal-comments-label">Comments:</label>
+      <textarea name="comments" rows="3"></textarea>
+
+      <div class="privacy-block">
+        <div class="privacy-notice" id="modal-privacy-notice"></div>
+        <label class="checkbox-group">
+          <input type="checkbox" id="privacyCheck1" required>
+          <span id="privacy-check-1"></span>
+        </label>
+        <label class="checkbox-group">
+          <input type="checkbox" id="privacyCheck2" required>
+          <span id="privacy-check-2"></span>
+        </label>
+        <div id="privacy-warning" class="privacy-warning" style="display:none;">
+          <span id="privacy-warning-msg"></span>
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <button type="submit" class="cta-btn" id="modal-send-btn" disabled>
+          <span class="material-icons" style="margin-right: 4px; font-size: 16px;">send</span>
+          Send
+        </button>
+        <button type="button" class="cta-btn" onclick="closeDemoModal()" id="modal-cancel-btn" 
+                style="background: var(--outline-variant); color: var(--on-surface);">
+          <span class="material-icons" style="margin-right: 4px; font-size: 16px;">close</span>
+          Cancel
+        </button>
+      </div>
+    </form>
+    <div id="demoSuccess" class="success-msg" style="display:none;">
+      <strong id="modal-thank-title">Thank you!</strong>
+      <span id="modal-thank-msg">We received your request.</span>
+    </div>
+    <iframe name="hidden_iframe" style="display:none"></iframe>
+  </div>
+</div>
+
+<!-- Modal Partner Program -->
+<div id="partnerModal" class="modal-bg" style="display:none;">
+  <div class="modal-form">
+    <h3 id="partner-modal-title">Partner Information</h3>
+    <form id="partnerForm" method="post" action="demos/request_partner.asp" target="hidden_iframe" autocomplete="off">
+      <label id="partner-modal-name-label">Name:</label>
+      <input type="text" name="name" required>
+      <label id="partner-modal-company-label">Company:</label>
+      <input type="text" name="company" required>
+      <label id="partner-modal-email-label">Email:</label>
+      <input type="email" name="email" required>
+      <label id="partner-modal-comments-label">Comments:</label>
+      <textarea name="comments" rows="3"></textarea>
+
+      <div class="privacy-block">
+        <div class="privacy-notice" id="partner-modal-privacy-notice"></div>
+        <label class="checkbox-group">
+          <input type="checkbox" id="partnerPrivacyCheck1" required>
+          <span id="partner-privacy-check-1"></span>
+        </label>
+        <label class="checkbox-group">
+          <input type="checkbox" id="partnerPrivacyCheck2" required>
+          <span id="partner-privacy-check-2"></span>
+        </label>
+        <div id="partner-privacy-warning" class="privacy-warning" style="display:none;">
+          <span id="partner-privacy-warning-msg"></span>
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <button type="submit" class="cta-btn" id="partner-modal-send-btn" disabled>
+          <span class="material-icons" style="margin-right: 4px; font-size: 16px;">send</span>
+          Send
+        </button>
+        <button type="button" class="cta-btn" onclick="closePartnerModal()" id="partner-modal-cancel-btn"
+                style="background: var(--outline-variant); color: var(--on-surface);">
+          <span class="material-icons" style="margin-right: 4px; font-size: 16px;">close</span>
+          Cancel
+        </button>
+      </div>
+    </form>
+    <div id="partnerSuccess" class="success-msg" style="display:none;">
+      <strong id="partner-modal-thank-title">Thank you!</strong>
+      <span id="partner-modal-thank-msg">We received your information.</span>
+    </div>
+    <iframe name="hidden_iframe" style="display:none"></iframe>
+  </div>
+</div>
+
+
+<script>
+function openDemoModal() {
+  document.getElementById('demoModal').style.display = 'flex';
+  if(document.getElementById('demoForm')) document.getElementById('demoForm').style.display = 'block';
+  if(document.getElementById('demoSuccess')) document.getElementById('demoSuccess').style.display = 'none';
+  if(document.getElementById('privacyCheck1')) document.getElementById('privacyCheck1').checked = false;
+  if(document.getElementById('privacyCheck2')) document.getElementById('privacyCheck2').checked = false;
+  privacyUpdateBtn();
+}
+function closeDemoModal() {
+  document.getElementById('demoModal').style.display = 'none';
+}
+document.getElementById('demoBtn').onclick = openDemoModal;
+
+function privacyUpdateBtn() {
+  const btn = document.getElementById('modal-send-btn');
+  if (!btn) return;
+  const c1 = document.getElementById('privacyCheck1').checked;
+  const c2 = document.getElementById('privacyCheck2').checked;
+  btn.disabled = !(c1 && c2);
+  document.getElementById('privacy-warning').style.display = (c1 && c2) ? "none" : "";
+}
+if(document.getElementById('privacyCheck1'))
+  document.getElementById('privacyCheck1').onchange = privacyUpdateBtn;
+if(document.getElementById('privacyCheck2'))
+  document.getElementById('privacyCheck2').onchange = privacyUpdateBtn;
+privacyUpdateBtn();
+
+if(document.getElementById('demoForm')) {
+  document.getElementById('demoForm').onsubmit = function(e) {
+    const c1 = document.getElementById('privacyCheck1').checked;
+    const c2 = document.getElementById('privacyCheck2').checked;
+    if (!(c1 && c2)) {
+      document.getElementById('privacy-warning').style.display = "";
+      privacyUpdateBtn();
+      return false;
+    }
+    setTimeout(function() {
+      if(document.getElementById('demoForm')) document.getElementById('demoForm').style.display = 'none';
+      if(document.getElementById('demoSuccess')) document.getElementById('demoSuccess').style.display = 'block';
+    }, 350);
+    return true;
+  };
+}
+
+// --- PARTNER MODAL JS ---
+function openPartnerModal() {
+  document.getElementById('partnerModal').style.display = 'flex';
+  if(document.getElementById('partnerForm')) document.getElementById('partnerForm').style.display = 'block';
+  if(document.getElementById('partnerSuccess')) document.getElementById('partnerSuccess').style.display = 'none';
+  if(document.getElementById('partnerPrivacyCheck1')) document.getElementById('partnerPrivacyCheck1').checked = false;
+  if(document.getElementById('partnerPrivacyCheck2')) document.getElementById('partnerPrivacyCheck2').checked = false;
+  partnerPrivacyUpdateBtn();
+}
+function closePartnerModal() {
+  document.getElementById('partnerModal').style.display = 'none';
+}
+if(document.getElementById('partnerBtn'))
+  document.getElementById('partnerBtn').onclick = openPartnerModal;
+
+function partnerPrivacyUpdateBtn() {
+  const btn = document.getElementById('partner-modal-send-btn');
+  if (!btn) return;
+  const c1 = document.getElementById('partnerPrivacyCheck1').checked;
+  const c2 = document.getElementById('partnerPrivacyCheck2').checked;
+  btn.disabled = !(c1 && c2);
+  document.getElementById('partner-privacy-warning').style.display = (c1 && c2) ? "none" : "";
+}
+if(document.getElementById('partnerPrivacyCheck1'))
+  document.getElementById('partnerPrivacyCheck1').onchange = partnerPrivacyUpdateBtn;
+if(document.getElementById('partnerPrivacyCheck2'))
+  document.getElementById('partnerPrivacyCheck2').onchange = partnerPrivacyUpdateBtn;
+partnerPrivacyUpdateBtn();
+
+if(document.getElementById('partnerForm')) {
+  document.getElementById('partnerForm').onsubmit = function(e) {
+    const c1 = document.getElementById('partnerPrivacyCheck1').checked;
+    const c2 = document.getElementById('partnerPrivacyCheck2').checked;
+    if (!(c1 && c2)) {
+      document.getElementById('partner-privacy-warning').style.display = "";
+      partnerPrivacyUpdateBtn();
+      return false;
+    }
+    setTimeout(function() {
+      if(document.getElementById('partnerForm')) document.getElementById('partnerForm').style.display = 'none';
+      if(document.getElementById('partnerSuccess')) document.getElementById('partnerSuccess').style.display = 'block';
+    }, 350);
+    return true;
+  };
+}
+
+// Tooltips para pasos encadenados en "How it Works"
+const howSteps = document.querySelectorAll('.how-step-chain');
+const tooltip = document.getElementById('how-tooltip');
+let howLang = 0; // 0:EN, 1:ES, 2:PT
+
+function getLangIndex() {
+  const code = document.getElementById('langBtn').textContent.trim();
+  if (code === 'ES') return 1;
+  if (code === 'PT') return 2;
+  return 0;
+}
+
+function showHowTooltip(evt, msg) {
+  tooltip.style.display = "block";
+  tooltip.innerText = msg;
+  const rect = evt.target.getBoundingClientRect();
+  tooltip.style.top = (window.scrollY + rect.top + rect.height + 8) + "px";
+  tooltip.style.left = (window.scrollX + rect.left + rect.width/2 - 110) + "px";
+}
+
+function hideHowTooltip() {
+  tooltip.style.display = "none";
+}
+
+howSteps.forEach(step => {
+  step.addEventListener('mouseenter', function(e) {
+    howLang = getLangIndex();
+    let msg = step.getAttribute('data-tooltip-en');
+    if (howLang === 1) msg = step.getAttribute('data-tooltip-es');
+    if (howLang === 2) msg = step.getAttribute('data-tooltip-pt');
+    showHowTooltip(e, msg);
+  });
+  step.addEventListener('mousemove', function(e) {
+    // Sigue el mouse si se quiere
+    tooltip.style.top = (e.pageY + 16) + "px";
+    tooltip.style.left = (e.pageX - 110) + "px";
+  });
+  step.addEventListener('mouseleave', hideHowTooltip);
+});
+
+// Para ocultar tooltip al cambiar idioma
+document.getElementById('langBtn').addEventListener('click', hideHowTooltip);
+
+
+
+</script>
+<script src="js/detekti_lang.js"></script>
+</body>
+</html>
