@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/detekti.css">
+  <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
 <header>
@@ -45,42 +46,44 @@
   
   </div>
 </section>
-<h2 id="features-title" class="section-title headline-medium">Features</h2>
 <section class="features" id="features">
-  <div class="feature-card">
-    <div class="icon">
-      <span class="material-icons">security</span>
+  <h2 id="features-title" class="section-title headline-medium">Features</h2>
+  <div class="features-grid">
+    <div class="feature-card">
+      <h3 id="f1-title">Full Identity Governance</h3>
+      <p id="f1-desc">Complete control over users, roles, permissions and access reviews.</p>
+      <div class="icon">
+        <span class="material-icons">security</span>
+      </div>
     </div>
-    <h3 id="f1-title">Full Identity Governance</h3>
-    <p id="f1-desc">Complete control over users, roles, permissions and access reviews.</p>
-  </div>
-  <div class="feature-card">
-    <div class="icon">
-      <span class="material-icons">flash_on</span>
+    <div class="feature-card">
+      <h3 id="f2-title">Fast Deployment</h3>
+      <p id="f2-desc">Ready to run in weeks, not months. Start seeing value fast.</p>
+      <div class="icon">
+        <span class="material-icons">flash_on</span>
+      </div>
     </div>
-    <h3 id="f2-title">Fast Deployment</h3>
-    <p id="f2-desc">Ready to run in weeks, not months. Start seeing value fast.</p>
-  </div>
-  <div class="feature-card">
-    <div class="icon">
-      <span class="material-icons">link</span>
+    <div class="feature-card">
+      <h3 id="f3-title">Flexible Integration</h3>
+      <p id="f3-desc">Connects natively to SAP, LDAP, Salesforce, file shares and more.</p>
+      <div class="icon">
+        <span class="material-icons">link</span>
+      </div>
     </div>
-    <h3 id="f3-title">Flexible Integration</h3>
-    <p id="f3-desc">Connects natively to SAP, LDAP, Salesforce, file shares and more.</p>
-  </div>
-  <div class="feature-card">
-    <div class="icon">
-      <span class="material-icons">analytics</span>
+    <div class="feature-card">
+      <h3 id="f4-title">Real Auditability</h3>
+      <p id="f4-desc">Powerful recertification, SoD conflict management and audit reports.</p>
+      <div class="icon">
+        <span class="material-icons">analytics</span>
+      </div>
     </div>
-    <h3 id="f4-title">Real Auditability</h3>
-    <p id="f4-desc">Powerful recertification, SoD conflict management and audit reports.</p>
-  </div>
-  <div class="feature-card">
-    <div class="icon">
-      <span class="material-icons">verified_user</span>
+    <div class="feature-card">
+      <h3 id="f5-title">Compliance Ready</h3>
+      <p id="f5-desc">Built for SOX, GLBA, HIPAA, ISO and more. Reduce audit findings.</p>
+      <div class="icon">
+        <span class="material-icons">verified_user</span>
+      </div>
     </div>
-    <h3 id="f5-title">Compliance Ready</h3>
-    <p id="f5-desc">Built for SOX, GLBA, HIPAA, ISO and more. Reduce audit findings.</p>
   </div>
 </section>
 <section class="how-diagram" id="how">
@@ -89,11 +92,11 @@
     <div class="how-step-chain" data-tooltip-en="Deploy Detekti on-premises or in your preferred cloud. Seamlessly adapts to your infrastructure needs."
          data-tooltip-es="Despliega Detekti on-premise o en tu nube preferida. Se adapta perfectamente a tu infraestructura."
          data-tooltip-pt="Implemente o Detekti on-premise ou na nuvem de sua escolha. Se adapta perfeitamente à sua infraestrutura.">
+      <div class="how-step-num">1</div>
+      <div class="how-step-title" id="how-step1-title">Flexible Deployment</div>
       <div class="how-icon">
         <span class="material-icons">cloud_upload</span>
       </div>
-      <div class="how-step-num">1</div>
-      <div class="how-step-title" id="how-step1-title">Flexible Deployment</div>
     </div>
     <div class="arrow">
       <span class="material-icons">arrow_forward</span>
@@ -101,11 +104,11 @@
     <div class="how-step-chain" data-tooltip-en="Integrate with your core systems, business apps, and unstructured storage for full visibility."
          data-tooltip-es="Conecta tus sistemas, aplicaciones y almacenamientos no estructurados para una visibilidad total."
          data-tooltip-pt="Conecte seus sistemas, aplicativos e armazenamentos não estruturados para visibilidade total.">
+      <div class="how-step-num">2</div>
+      <div class="how-step-title" id="how-step2-title">Connect Everything</div>
       <div class="how-icon">
         <span class="material-icons">hub</span>
       </div>
-      <div class="how-step-num">2</div>
-      <div class="how-step-title" id="how-step2-title">Connect Everything</div>
     </div>
     <div class="arrow">
       <span class="material-icons">arrow_forward</span>
@@ -113,23 +116,23 @@
     <div class="how-step-chain" data-tooltip-en="Easily configure your Segregation of Duties (SoD) matrices to match your business and compliance needs."
          data-tooltip-es="Configura fácilmente tus matrices de Segregación de Funciones (SoD) para cumplir tu negocio y compliance."
          data-tooltip-pt="Configure facilmente suas matrizes de Segregação de Funções (SoD) para atender sua empresa e compliance.">
+      <div class="how-step-num">3</div>
+      <div class="how-step-title" id="how-step3-title">Define SoD Rules</div>
       <div class="how-icon">
         <span class="material-icons">grid_view</span>
       </div>
-      <div class="how-step-num">3</div>
-      <div class="how-step-title" id="how-step3-title">Define SoD Matrices</div>
     </div>
     <div class="arrow">
       <span class="material-icons">arrow_forward</span>
     </div>
-    <div class="how-step-chain" data-tooltip-en="Identify and set up rules for conflicting transactions across applications and processes."
-         data-tooltip-es="Configura reglas para transacciones en conflicto entre aplicaciones y procesos."
-         data-tooltip-pt="Defina regras para transações conflitantes entre aplicativos e processos.">
-      <div class="how-icon">
-        <span class="material-icons">warning</span>
-      </div>
+    <div class="how-step-chain" data-tooltip-en="Automate user access reviews and certifications with built-in workflows and notifications."
+         data-tooltip-es="Automatiza revisiones de acceso y certificaciones con flujos de trabajo y notificaciones integrados."
+         data-tooltip-pt="Automatize revisões de acesso e certificações com fluxos de trabalho e notificações integrados.">
       <div class="how-step-num">4</div>
-      <div class="how-step-title" id="how-step4-title">Configure Conflicts</div>
+      <div class="how-step-title" id="how-step4-title">Automate Compliance</div>
+      <div class="how-icon">
+        <span class="material-icons">assignment_turned_in</span>
+      </div>
     </div>
     <div class="arrow">
       <span class="material-icons">arrow_forward</span>
@@ -137,23 +140,23 @@
     <div class="how-step-chain" data-tooltip-en="Schedule periodic access reviews and automate user certification workflows to ensure compliance."
          data-tooltip-es="Automatiza revisiones periódicas de acceso y flujos de certificación para asegurar el cumplimiento."
          data-tooltip-pt="Automatize revisões periódicas de acesso e fluxos de certificação para garantir conformidade.">
+      <div class="how-step-num">5</div>
+      <div class="how-step-title" id="how-step5-title">Automate Reviews</div>
       <div class="how-icon">
         <span class="material-icons">schedule</span>
       </div>
-      <div class="how-step-num">5</div>
-      <div class="how-step-title" id="how-step5-title">Automate Reviews</div>
     </div>
     <div class="arrow">
       <span class="material-icons">arrow_forward</span>
     </div>
-    <div class="how-step-chain" data-tooltip-en="Continuously monitor, detect, and manage identity-related risks—mitigate threats before they impact your business."
-         data-tooltip-es="Monitorea, detecta y mitiga riesgos relacionados con identidades antes de que afecten tu negocio."
-         data-tooltip-pt="Monitore, detecte e mitigue riscos de identidade antes que afetem seu negócio.">
-      <div class="how-icon">
-        <span class="material-icons">shield</span>
-      </div>
+    <div class="how-step-chain" data-tooltip-en="Gain insights with comprehensive dashboards and reports for better decision-making and compliance."
+         data-tooltip-es="Obtén visibilidad con dashboards y reportes integrales para una mejor toma de decisiones."
+         data-tooltip-pt="Obtenha visibilidade com painéis e relatórios abrangentes para uma melhor tomada de decisões.">
       <div class="how-step-num">6</div>
-      <div class="how-step-title" id="how-step6-title">Mitigate Risks</div>
+      <div class="how-step-title" id="how-step6-title">Gain Insights</div>
+      <div class="how-icon">
+        <span class="material-icons">insights</span>
+      </div>
     </div>
   </div>
   <div id="how-tooltip" class="how-tooltip"></div>

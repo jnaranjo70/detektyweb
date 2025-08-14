@@ -1,0 +1,47 @@
+/* Custom styles for How It Works section */
+.how-step-num {
+  font-weight: 700 !important;
+  font-size: 1.75rem !important;
+  color: var(--primary-600) !important;
+  margin: 0 0 20px 0 !important;
+  background: var(--primary-50) !important;
+  width: 56px !important;
+  height: 56px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+  top: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+  border: 2px solid var(--primary-200) !important;
+  transition: all 0.3s ease !important;
+}
+
+/* Header Logo */
+header .logo img {
+  height: 57px !important; /* 38px * 1.5 */
+  width: auto !important;
+  transition: all 0.3s ease;
+}
+
+/* Enhanced card text */
+.how-step-title {
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  margin-bottom: 12px !important;
+  color: var(--on-surface) !important;
+  letter-spacing: 0.3px;
+  text-transform: none;
+}
+
+.how-step-chain {
+  padding: 24px 16px !important;
+}
+
+.how-step-chain:hover .how-step-num {
+  transform: scale(1.05) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+  background: var(--primary-100) !important;
+}
