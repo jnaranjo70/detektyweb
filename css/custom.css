@@ -18,6 +18,11 @@
   transition: all 0.3s ease !important;
 }
 
+/* Scroll padding for anchor links */
+html {
+  scroll-padding-top: 80px; /* Adjust this value based on your header height */
+}
+
 /* Header Logo */
 header .logo img {
   height: 57px !important; /* 38px * 1.5 */
